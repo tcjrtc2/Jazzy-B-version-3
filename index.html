@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazzy's Boutique | Where Hair Meets Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Parallax Background -->
+    <div class="parallax-bg">
+        <img src="Botique picture.jpeg" alt="Elegant Hair Boutique" class="bg-image">
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">Jazzy's Boutique</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="glass-panel hero-panel">
+            <h1 class="hero-title">Where Hair Meets Elegance</h1>
+            <p class="hero-subtitle">Experience luxury hair care in a sanctuary of beauty and refinement</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="glass-btn primary">Book Your Appointment</a>
+                <a href="#shop" class="glass-btn secondary">Shop Our Products</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="services-section">
+        <div class="section-header glass-panel">
+            <h2 class="section-title">Our Luxury Collection</h2>
+            <p class="section-subtitle">Premium hair care essentials & accessories</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🌿</div>
+                <h3>Argan Oil Elixir</h3>
+                <p>Pure Moroccan argan oil for silky, nourished hair with natural shine</p>
+                <div class="card-price" data-price="45">$45</div>
+                <button class="glass-btn primary buy-btn" data-product="Argan Oil Elixir" data-price="45">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">💧</div>
+                <h3>Jojoba Serum</h3>
+                <p>Lightweight hydration oil that repairs and protects damaged hair</p>
+                <div class="card-price" data-price="38">$38</div>
+                <button class="glass-btn primary buy-btn" data-product="Jojoba Serum" data-price="38">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🥥</div>
+                <h3>Coconut Oil Blend</h3>
+                <p>Deep conditioning treatment for ultimate moisture and strength</p>
+                <div class="card-price" data-price="35">$35</div>
+                <button class="glass-btn primary buy-btn" data-product="Coconut Oil Blend" data-price="35">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🎒</div>
+                <h3>Crystal Beauty Backpack</h3>
+                <p>Elegant travel bag with compartments for all your hair essentials</p>
+                <div class="card-price" data-price="125">$125</div>
+                <button class="glass-btn primary buy-btn" data-product="Crystal Beauty Backpack" data-price="125">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">👜</div>
+                <h3>Luxury Hair Kit Bag</h3>
+                <p>Premium leather backpack designed for professional stylists</p>
+                <div class="card-price" data-price="185">$185</div>
+                <button class="glass-btn primary buy-btn" data-product="Luxury Hair Kit Bag" data-price="185">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🧴</div>
+                <h3>Whipped Shea Butter</h3>
+                <p>Rich, organic shea butter for intensive hair and scalp treatment</p>
+                <div class="card-price" data-price="28">$28</div>
+                <button class="glass-btn primary buy-btn" data-product="Whipped Shea Butter" data-price="28">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">✨</div>
+                <h3>Raw Shea Butter</h3>
+                <p>Unrefined, pure African shea butter for natural hair care</p>
+                <div class="card-price" data-price="32">$32</div>
+                <button class="glass-btn primary buy-btn" data-product="Raw Shea Butter" data-price="32">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🌺</div>
+                <h3>Lavender Shea Blend</h3>
+                <p>Calming shea butter infused with lavender essential oils</p>
+                <div class="card-price" data-price="35">$35</div>
+                <button class="glass-btn primary buy-btn" data-product="Lavender Shea Blend" data-price="35">Add to Cart</button>
+            </div>
+            
+            <div class="glass-card service-card product-card" data-scroll>
+                <div class="card-icon">🍊</div>
+                <h3>Rosehip Oil Treatment</h3>
+                <p>Vitamin-rich oil for hair growth and scalp health</p>
+                <div class="card-price" data-price="42">$42</div>
+                <button class="glass-btn primary buy-btn" data-product="Rosehip Oil Treatment" data-price="42">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="glass-panel about-panel" data-scroll>
+            <div class="about-content">
+                <h2 class="section-title">The Jazzy's Experience</h2>
+                <div class="about-text">
+                    <p>Founded on the belief that hair artistry is an intimate form of self-expression, Jazzy's Boutique has become a sanctuary for those who seek more than just a service—they seek transformation.</p>
+                    
+                    <p>Our master stylists are trained in the world's finest academies, bringing cutting-edge techniques and timeless elegance to every consultation. We use only premium, cruelty-free products that honor both your hair and the environment.</p>
+                    
+                    <p>Step into our crystal-lit studio at Patrick Henry Mall where soft music, aromatic scents, and personalized attention create an atmosphere of pure indulgence. Here, every visit is an occasion.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Excellence</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5K+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">Award</div>
+                        <div class="stat-label">Winning Team</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="glass-panel booking-panel" data-scroll>
+            <h2 class="section-title">Reserve Your Look</h2>
+            <p class="booking-intro">Experience the art of transformation. Book your appointment and step into elegance.</p>
+            
+            <!-- Square Appointment Widget Placeholder -->
+            <div class="appointment-widget">
+                <!-- Replace this with your actual Square booking widget code -->
+                <div class="widget-placeholder">
+                    <div class="booking-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="glass-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" class="glass-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" class="glass-input">
+                        </div>
+                        <div class="form-group">
+                            <select class="glass-input">
+                                <option>Select a Service</option>
+                                <option>Crystal Highlights</option>
+                                <option>Diamond Cut & Style</option>
+                                <option>Pearl Hydration Treatment</option>
+                                <option>Royal Extension Suite</option>
+                                <option>Bridal & Events</option>
+                                <option>Signature Blowout</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" class="glass-input">
+                        </div>
+                        <button class="glass-btn primary full-width">Book Your Appointment</button>
+                    </div>
+                </div>
+                
+                <!-- To integrate Square Appointments, add your booking script here:
+                <script src="https://square.site/appointments/buyer/widget/YOUR_WIDGET_ID.js"></script>
+                -->
+            </div>
+            
+            <p class="booking-note">Or call us at <a href="tel:+15551234567" class="phone-link">(555) 123-4567</a></p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="section-header glass-panel">
+            <h2 class="section-title">Words from Our Clients</h2>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="glass-card testimonial-card" data-scroll>
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">Absolutely transformative! The attention to detail and luxurious atmosphere made me feel like royalty. My hair has never looked better.</p>
+                <div class="testimonial-author">
+                    <div class="author-name">Sophia Laurent</div>
+                    <div class="author-role">Fashion Designer</div>
+                </div>
+                <div class="rating">★★★★★</div>
+            </div>
+            
+            <div class="glass-card testimonial-card" data-scroll>
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">This isn't just a salon—it's an experience. From the moment you walk in, you're treated with such care and professionalism. I'm a client for life.</p>
+                <div class="testimonial-author">
+                    <div class="author-name">Isabella Chen</div>
+                    <div class="author-role">CEO & Entrepreneur</div>
+                </div>
+                <div class="rating">★★★★★</div>
+            </div>
+            
+            <div class="glass-card testimonial-card" data-scroll>
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">The bridal styling was beyond my dreams. They understood my vision perfectly and brought it to life with such elegance and precision.</p>
+                <div class="testimonial-author">
+                    <div class="author-name">Emma Rodriguez</div>
+                    <div class="author-role">Recent Bride</div>
+                </div>
+                <div class="rating">★★★★★</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="glass-panel footer-panel">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Jazzy's</h3>
+                    <p>Where Hair Meets Elegance</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Tuesday - Saturday: 9am - 7pm</p>
+                    <p>Sunday: 10am - 5pm</p>
+                    <p>Monday: Closed</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Patrick Henry Mall</p>
+                    <p>12300 Jefferson Ave</p>
+                    <p>Newport News, VA 23602</p>
+                    <p>(555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Pinterest</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jazzy's Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="glass-panel cart-panel">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <p class="empty-cart">Your cart is empty</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+                <button class="glass-btn primary full-width" id="checkoutBtn">Checkout with Square</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Square Payment Modal -->
+    <div class="payment-modal" id="paymentModal">
+        <div class="glass-panel payment-panel">
+            <div class="payment-header">
+                <h2>Complete Your Purchase</h2>
+                <button class="close-payment" id="closePayment">&times;</button>
+            </div>
+            <div class="payment-summary" id="paymentSummary"></div>
+            <div id="payment-form">
+                <div id="card-container"></div>
+                <button class="glass-btn primary full-width" id="card-button" type="button">Pay Now</button>
+            </div>
+            <div id="payment-status"></div>
+        </div>
+    </div>
+
+    <!-- Cart Button -->
+    <button class="cart-button glass-btn" id="cartButton">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count" id="cartCount">0</span>
+    </button>
+
+    <!-- Square Web Payments SDK -->
+    <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
